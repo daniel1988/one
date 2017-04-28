@@ -1,0 +1,26 @@
+{
+    "name": "OneLib",
+    "type": "library",
+    "description": "one php library",
+    "keywords": ["library"],
+    "license": "Business Licenses",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "daniel.luo",
+            "email": "453465565@qq.com",
+            "homepage": "https://github.com/daniel1988"
+        }
+    ],
+  "repositories": [
+    {
+      "url": "https://github.com/daniel1988/onelib.git",
+      "type": "git"
+    }
+  ],
+  "autoload": {
+        "psr-0": {
+            "OneLib": "src/"
+        }
+    }
+}
